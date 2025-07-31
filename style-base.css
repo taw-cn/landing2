@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container {
+     max-width: 1280px;
+    margin: 0 auto;
+    padding-inline: 16px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 8px;   
+}
+
+.logo {
+    font-size: 24px;  
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb ;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
+}
+
