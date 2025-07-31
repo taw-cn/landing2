@@ -6,6 +6,7 @@ body {
     font-family: sans-serif;
 }
 
+/*-- Header Section -- */
 .header {
     background: #1F2937;
     color: #e5e7eb;
@@ -13,7 +14,7 @@ body {
 }
 
 .container {
-     max-width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     padding-inline: 16px;
 }
@@ -32,10 +33,63 @@ body {
 ul {
     list-style-type: none;
     font-size: 18px;
-    color: #e5e7eb ;
     display: flex;
-    margin: 0;
-    padding: 0;
+    align-items: center;
     gap: 18px;
+    text-decoration: none;
 }
 
+li {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb ;
+}
+
+/*-- Section One -- */
+
+.section-one .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-block: 8px; 
+    background: #1F2937;
+}
+
+/* .section-one .container > * {
+    max-width: 50%;
+} */
+
+
+.section-one .main-picture,
+.section-one .description {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    color: f9faf8;
+    font-weight: 900;
+}
+
+.section-one .description {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button-one {
+    background-color: #3882f6 ;
+    color: #f9faf8;
+    padding: 8px 36px;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+/*-- Section Two -- */
+/*-- Section Three -- */
