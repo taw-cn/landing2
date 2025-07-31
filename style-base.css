@@ -17,6 +17,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding-inline: 16px;
+    background: #1F2937;
 }
 
 .header .container {
@@ -30,7 +31,7 @@ body {
     color: #f9faf8;
 }
 
-ul {
+.header ul {
     list-style-type: none;
     font-size: 18px;
     display: flex;
@@ -52,23 +53,27 @@ a {
 
 /*-- Section One -- */
 
+.section-one {
+    background: #1F2937;
+
+}
+
 .section-one .container {
     display: flex;
     justify-content: space-between;
     gap: 16px;
     padding-block: 8px; 
-    background: #1F2937;
 }
 
-/* .section-one .container > * {
+.section-one .container > * {
     max-width: 50%;
-} */
+}
 
 
-.section-one .main-picture,
+/* .section-one .main-picture,
 .section-one .description {
     max-width: 50%;
-}
+} */
 
 h1 {
     font-size: 48px;
@@ -92,4 +97,37 @@ h1 {
 }
 
 /*-- Section Two -- */
+
+.section-two .container {
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: 1f2937;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-two ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    list-style-type: none;   
+}
+
+.section-two .item {
+    box-sizing: border-box;
+    border-radius: 14px;
+    border: 3px solid pink;
+    padding: 5px;
+}
+
+.section-two p {
+    text-align: center;
+    max-width: 150px;
+}
 /*-- Section Three -- */
