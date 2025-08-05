@@ -163,6 +163,12 @@ h2 {
     align-items: center;
 }
 
+.blue {
+    margin: 0;
+    padding: 0;
+
+}
+
 .button-two {
     padding: 12px 24px;
     font-size: 18;
@@ -171,4 +177,16 @@ h2 {
     color: #f9f9f9;
     border: 2px solid white;
     border-radius: 6px;
+   
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
